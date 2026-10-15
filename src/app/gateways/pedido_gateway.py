@@ -9,4 +9,3 @@ class IPedidoGateway(abc.ABC):
     @abc.abstractmethod
     def listar(self) -> list[Pedido]:
         pass
-

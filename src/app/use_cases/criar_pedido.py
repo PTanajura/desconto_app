@@ -13,4 +13,3 @@ class CriarPedido:
             raise ValueError("Tipo de desconto inválido")
 
         return Pedido(cliente, valor_original, desconto)
-
